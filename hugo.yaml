@@ -76,18 +76,6 @@ params:
 
   homeInfoParams:
     Title: "The Smartest Way to Shop on Steam"
-    Content: >
-      Stop digging through thousands of listings...
-
-      - Every week, we curate high-quality games at their deepest discounts, providing the essential data you need to buy with confidence.
-
-      - **Verified Quality:** Integrated Metacritic and Steam community scores.
-
-      - **Hardware Ready:** Real-world Steam Deck and ProtonDB compatibility status.
-
-      - **Full Transparency:** Clear alerts for 3rd-party accounts and DRM requirements.
-      
-      - *Spend less time searching and more time playing.*
 
   assets:
     disableHLJS: true
