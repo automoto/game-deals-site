@@ -1,0 +1,22 @@
+# Hugo default output directories
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Hugo temporary files
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node.js (if you ever add npm packages)
+node_modules/
+npm-debug.log
+yarn-error.log
