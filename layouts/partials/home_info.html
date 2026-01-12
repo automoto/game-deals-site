@@ -1,0 +1,45 @@
+{{- if site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ site.Params.homeInfoParams.Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        <br>
+        <h3>Stop digging through thousands of listings.</h3> 
+        <br>
+        <p>Every week, we curate high-quality games at their deepest discounts, providing the essential data you need to buy with confidence:
+        </p>
+        <ul style="margin-top: 1rem; margin-bottom: 1.5rem; list-style: none; padding-left: 0;">
+            <li style="margin-bottom: 0.5rem;">
+                ✅ <strong>Verified Quality:</strong> Integrated Metacritic and Steam community scores.
+            </li>
+            <li style="margin-bottom: 0.5rem;">
+                🎮 <strong>Hardware Ready:</strong> Real-world Steam Deck and ProtonDB compatibility status.
+            </li>
+            <li style="margin-bottom: 0.5rem;">
+                ⚠️ <strong>Full Transparency:</strong> Clear alerts for 3rd-party accounts and DRM requirements.
+            </li>
+        </ul>
+        <p style="font-weight: bold; margin-bottom: 1.5rem;">
+            Spend less time searching and more time playing.
+        </p>
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+        <div style="margin-top: 1rem;">
+             <a href="/tags/deck/" style="
+                display: inline-block;
+                background: var(--primary);
+                color: var(--theme);
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: transform 0.1s;
+            " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                View Latest Steam Deck Deals
+            </a>
+        </div>
+    </footer>
+</article>
+{{- end -}}
