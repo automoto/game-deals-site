@@ -75,7 +75,7 @@ params:
     enabled: false
 
   homeInfoParams:
-    Title: "The Smartest Way to Shop on Steam"
+    Title: "Finding high quality game deals that are Linux and Steam Deck friendly"
 
   assets:
     disableHLJS: true
